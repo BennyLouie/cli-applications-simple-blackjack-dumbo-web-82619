@@ -1,3 +1,5 @@
+require.pry
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -62,6 +64,7 @@ def runner
       end_game(card_total)
     end
   end
+  binding.pry
 end
     
     
